@@ -1,0 +1,48 @@
+```
+# Build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# CMake build directories
+build/
+cmake-build-*/
+_CacheData/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Distribution packages
+dist/
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Environment variables
+.env
+.env.local
+*.env.*
+```
