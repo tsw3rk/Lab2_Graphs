@@ -28,3 +28,12 @@ std::vector<int> Graph::getNeighbors(int u) const {
     }
     return std::vector<int>(adjacencyList[u].begin(), adjacencyList[u].end());
 }
+
+//добавил Н. нужно объявить в Graph.h
+int Graph::getEdgeCount() const {
+    int total = 0;
+    for (const auto& neighbors : adjacencyList) {
+        total += static_cast<int>(neighbors.size());
+    }
+    return total / 2; // каждое ребро считается дважды в неориентированном графе
+}
