@@ -19,5 +19,6 @@ public:
     void addEdge(int u, int v); // Добавить ребро (неориентированное)
     bool hasEdge(int u, int v) const; // Проверить наличие ребра
     std::vector<int> getNeighbors(int u) const; // Получить список соседей вершины u
+    int getEdgeCount() const;//добавил Ник. (в Graph.cpp)
 };
 #endif //LAB2_GRAPHS_GRAPH_H
