@@ -11,6 +11,7 @@ set(SOURCES
         Graph.cpp
         AdjacencyMatrixParser.cpp
         EdgeListParser.cpp
+        DIMACSParser.cpp  # ← Добавил N (1)
 )
 
 set(HEADERS
@@ -18,6 +19,7 @@ set(HEADERS
         GraphParser.h
         AdjacencyMatrixParser.h
         EdgeListParser.h
+        DIMACSParser.h    Добавил N (1)
 )
 
 add_executable(graph_app ${SOURCES} ${HEADERS})
