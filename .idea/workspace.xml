@@ -13,9 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b07e3c9b-4b2d-4d74-b344-44949d37cf50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/edgeListParser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edgeListParser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdjacencyMatrixParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774872758917</updated>
-      <workItem from="1774872760222" duration="1296000" />
+      <workItem from="1774872760222" duration="2984000" />
     </task>
     <servers />
   </component>
