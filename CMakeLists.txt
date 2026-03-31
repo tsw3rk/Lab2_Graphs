@@ -7,12 +7,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(SOURCES
-        SOURCES
         main.cpp
         Graph.cpp
         AdjacencyMatrixParser.cpp
         EdgeListParser.cpp
         DIMACSParser.cpp
+        # --- Файлы генераторов ---
         BipartiteGraphGenerator.cpp
         StarGraphGenerator.cpp
         PathGraphGenerator.cpp
@@ -27,16 +27,18 @@ set(SOURCES
         CubicGraphGenerator.cpp
         BridgesGraphGenerator.cpp
         TwoBridgesGraphGenerator.cpp
+        Visualizer.cpp
+        TextWriter.cpp
 )
 
 set(HEADERS
-        HEADERS
         Graph.h
         GraphParser.h
         AdjacencyMatrixParser.h
         EdgeListParser.h
         DIMACSParser.h
         IGenerator.h
+        # --- Заголовки генераторов ---
         BipartiteGraphGenerator.h
         StarGraphGenerator.h
         PathGraphGenerator.h
@@ -51,6 +53,8 @@ set(HEADERS
         CubicGraphGenerator.h
         BridgesGraphGenerator.h
         TwoBridgesGraphGenerator.h
+        Visualizer.h
+        TextWriter.h
 )
 
 add_executable(graph_app ${SOURCES} ${HEADERS})
