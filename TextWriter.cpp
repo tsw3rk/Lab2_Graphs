@@ -2,6 +2,8 @@
 #include <fstream>
 #include <stdexcept>
 
+//для Progr@m4You .edges
+
 void TextWriter::save(const Graph& g, const std::string& filename) {
     std::ofstream out(filename);
     if (!out.is_open()) {

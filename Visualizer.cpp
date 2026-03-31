@@ -6,6 +6,8 @@
 #include <functional>
 #include <stdexcept>
 
+//для GraphViz
+
 std::vector<std::pair<int, int>> Visualizer::findSpanningTree(const Graph& g, unsigned int seed) {
     std::vector<std::pair<int, int>> treeEdges;
     int n = g.getVertexCount();
